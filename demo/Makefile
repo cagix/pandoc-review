@@ -9,7 +9,7 @@ LANG    = -V lang=de-DE -M lang=de-DE
 
 
 
-## Source file and lecture prefix
+## Source file
 ## either defined here or given at cmd line like `make SRC=coolreview.md`
 
 SRC   ?= review.md
