@@ -6,8 +6,9 @@
 
 ## Path to pandoc templates/includes and language settings
 
-DATADIR = /home/cagix/.pandoc/
-PREFIX  = ${DATADIR}/review/
+DATADIR   = /home/cagix/.pandoc/
+PREFIX    = ${DATADIR}/review/
+TEMPLATES = ${DATADIR}/templates/
 
 LANG    = -V lang=de-DE -M lang=de-DE
 
@@ -26,6 +27,7 @@ TMP2   = __grading.filled.tex
 ## Review options
 
 PDFOPTIONS  = -f markdown --latex-engine=xelatex
+PDFOPTIONS += --template=${TEMPLATES}/default.latex
 PDFOPTIONS += --default-image-extension=pdf
 PDFOPTIONS += -V documentclass=scrartcl
 PDFOPTIONS += -V fontsize=11pt -V papersize=a4
@@ -45,8 +47,8 @@ pdf:	clean $(PDF)
 
 
 $(PDF): $(SRC) ${PREFIX}/review_title.tex ${PREFIX}/review_grading.tex
-	pandoc --standalone --template ${PREFIX}/review_title.tex -o ${TMP1} $<
-	pandoc --standalone --template ${PREFIX}/review_grading.tex -o ${TMP2} $<
+	pandoc --standalone --template=${PREFIX}/review_title.tex -o ${TMP1} $<
+	pandoc --standalone --template=${PREFIX}/review_grading.tex -o ${TMP2} $<
 	pandoc ${PDFOPTIONS} -o $@ $<
 	rm -f ${TMP1} ${TMP2}
 
