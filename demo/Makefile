@@ -27,7 +27,7 @@ TMP2   = __grading.filled.tex
 ## Review options
 
 PDFOPTIONS  = -f markdown --latex-engine=xelatex
-PDFOPTIONS += --template=${TEMPLATES}/default.latex
+#PDFOPTIONS += --template=${TEMPLATES}/default.latex
 PDFOPTIONS += --default-image-extension=pdf
 PDFOPTIONS += -V documentclass=scrartcl
 PDFOPTIONS += -V fontsize=11pt -V papersize=a4
