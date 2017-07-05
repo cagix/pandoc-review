@@ -10,8 +10,6 @@ DATADIR   = /home/cagix/.pandoc/
 PREFIX    = ${DATADIR}/review/
 TEMPLATES = ${DATADIR}/templates/
 
-LANG    = -V lang=de-DE -M lang=de-DE
-
 
 
 ## Source file
@@ -35,7 +33,7 @@ PDFOPTIONS += -V geometry:left=2cm -V geometry:right=2cm -V geometry:top=2cm -V 
 PDFOPTIONS += --standalone --smart --number-sections
 PDFOPTIONS += --include-in-header=${TMP1}
 PDFOPTIONS += --include-after-body=${TMP2}
-PDFOPTIONS += ${LANG} --data-dir=${DATADIR}
+PDFOPTIONS += --data-dir=${DATADIR}
 
 
 

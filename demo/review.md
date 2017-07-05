@@ -1,5 +1,7 @@
 ---
 gutachten: zur Bachelorarbeit
+lang: de-DE
+
 author: N.N.
 title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam ..."
 note: sehr gut (1.3)
