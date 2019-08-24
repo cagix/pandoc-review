@@ -2,6 +2,7 @@
 gutachten: zur Bachelorarbeit
 lang: de-DE
 
+reviewer: "reviewers name"
 author: N.N.
 title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam ..."
 location: "address"
