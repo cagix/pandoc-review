@@ -3,6 +3,7 @@ gutachten: zur Bachelorarbeit
 lang: de-DE
 
 reviewer: "reviewers name"
+affiliation: "university, department"
 author: N.N.
 title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam ..."
 location: "address"
