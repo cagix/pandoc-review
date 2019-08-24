@@ -65,7 +65,7 @@ This project is supposed to be used with pandoc 1.19.x.
 License
 -------
 
-Copyright (c) 2016-2017, Carsten Gips
+Copyright (c) 2016-2019, Carsten Gips
 
 [MIT licensed](http://opensource.org/licenses/MIT)
 
