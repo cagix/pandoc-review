@@ -4,6 +4,7 @@ lang: de-DE
 
 author: N.N.
 title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam ..."
+location: "address"
 note: sehr gut (1.3)
 date: 16.06.2016
 ...
