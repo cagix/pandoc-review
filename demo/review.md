@@ -1,19 +1,21 @@
 ---
-gutachten: zur Bachelorarbeit
+gutachten: zur Bachelorarbeit/Masterarbeit
 lang: de-DE
 
 reviewer: "reviewers name"
 affiliation: "university, department"
-author: N.N.
-title: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam ..."
 location: "address"
+
+author: "author of thesis"
+title: "Lorem ipsum dolor sit amet"
+
 note: sehr gut (1.3)
 date: 16.06.2016
 ...
 
 
 
-In der vorliegenden Bachelorarbeit ...
+In der vorliegenden Arbeit ...
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
