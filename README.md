@@ -54,7 +54,7 @@ This project is supposed to be used with pandoc 2.7.3.
 License
 -------
 
-Copyright (c) 2016-2019, Carsten Gips
+Copyright (c) 2016-2021, Carsten Gips
 
 [MIT licensed](http://opensource.org/licenses/MIT)
 
